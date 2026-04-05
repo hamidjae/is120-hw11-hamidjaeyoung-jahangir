@@ -1,6 +1,6 @@
 # is120-hw11-hamidjaeyoung-jahangir: JavaScript API
 
-(Live Link)[https://hamidjae.github.io/is120-hw11-hamidjaeyoung-jahangir/]
+[Live Link](https://hamidjae.github.io/is120-hw11-hamidjaeyoung-jahangir/)
 
 This homework uses JavaScript to call a Dragon Ball API to automatically populate character cards, and allow users to save their favorite cards.
 
