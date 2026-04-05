@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dragon Ball Characters</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1>Dragon Ball Characters</h1>
+        <p class="subtitle">Browse characters and mark your favorites. Note that the Dragon Ball API stores descriptions in Spanish. </p>
+      </header>
+
+      <section id="favorites-section" class="section hidden">
+        <div class="section-header">
+          <h2>Favorites</h2>
+        </div>
+        <div id="favorites-container" class="card-container"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>All Characters</h2>
+          <p id="character-count">X loaded</p>
+        </div>
+        <div id="characters-container" class="card-container"></div>
+      </section>
+    </main>
+  </body>
+</html>
